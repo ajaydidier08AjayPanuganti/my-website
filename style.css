@@ -1,0 +1,90 @@
+.header, .content-box-1{
+    background-color: #1a1a1d;
+    color: #C3073f;
+}
+
+.header{
+    margin: 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px 0px 10px 80px ;
+}
+
+.links ul{
+    display: flex;
+    width:600px;
+    justify-content: space-between;
+    padding-right: 80px;
+    list-style-type: none;
+}
+body, h1{
+    margin:0px;
+    
+}
+
+.content-box-1{
+    height: 400px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-1-1{
+    width: 400px;
+}
+
+button{
+    background-color: white;
+    height: 40px;
+    width:100px;
+}
+
+.box-2-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    height: 300px;
+    width: 250px;
+    border: 2px solid red;
+}
+
+.content-box-3,.content-box-4,.footer{
+    height: 150px;
+    background-color: #1a1a1d;
+    color:#C3073f;
+}
+
+.content-box-3{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.content-box-4{
+ 
+}
+
+.box-4-1{
+    background-color: #C3073f;
+    display: flex;
+    border-radius: 20px;
+    width:900px;
+    height: auto;
+    color: black;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+}
